@@ -61,7 +61,7 @@ const App = () => {
           <p className="text-xl font-semibold">
             {users.name}, {users.sys?.country}
           </p>
-          <p className="bg-teal-600 absolute bottom-1 text-right rounded-t-lg rounded-b-lg p-2 left-44 h-10 w-20">
+          <p className="bg-teal-600 absolute bottom-1 text-right rounded-t-lg rounded-b-lg p-2 left-60 h-10 w-20">
             {users.weather?.[0].description}
           </p>
         </div>
